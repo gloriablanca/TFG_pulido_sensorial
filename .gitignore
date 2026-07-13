@@ -1,0 +1,58 @@
+# ---------------------------------------------------
+# .gitignore para proyecto Unity (2022.3 LTS)
+# ---------------------------------------------------
+
+# carpetas generadas por Unity (no versionar)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emory[Cc]aptures/
+
+# Asset meta: se ignoran solo cuando su asset también se ignora
+!/[Aa]ssets/**/*.meta
+
+# archivos de IDE / proyecto autogenerados
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# meta de archivos generados
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# informe de fallos de Unity
+sysinfo.txt
+
+# builds / paquetes exportados
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# addressables autogenerados
+/[Aa]ssets/[Aa]ddressableAssetsData/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Crashlytics
+crashlytics-build.properties
+.claude/
